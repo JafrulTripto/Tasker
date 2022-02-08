@@ -1,0 +1,35 @@
+{
+  "name": "tasker",
+  "version": "1.0.0",
+  "description": "A simple management tool developed using typescript",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon dist/server.js",
+    "build-ts":"tsc",
+    "watch-ts":"tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JafrulTripto/Tasker.git"
+  },
+  "keywords": [
+    "task-managenent",
+    "task",
+    "management"
+  ],
+  "author": "jafrulTripto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JafrulTripto/Tasker/issues"
+  },
+  "homepage": "https://github.com/JafrulTripto/Tasker#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.16",
+    "nodemon": "^2.0.15"
+  }
+}
